@@ -1,0 +1,30 @@
+.App,
+#root,
+html {
+    background-color: rgb(40, 40, 40);
+    color: whitesmoke;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.DisplayAll {
+    color: wheat;
+}
+.bookmark-table {
+    border: 1px solid mediumturquoise;
+    border-radius: 5px;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+button,
+input {
+    display: block;
+}
