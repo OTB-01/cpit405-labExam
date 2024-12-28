@@ -15,7 +15,7 @@ header('Content-Type: application/json');
 header('Access-Control-Allow-Methods: DELETE');
 
 // include database and model files
-include_once '../db/database.php';
+include_once '../db/Database.php';
 include_once '../models/Bookmark.php';
 
 // instantiate database and connect
